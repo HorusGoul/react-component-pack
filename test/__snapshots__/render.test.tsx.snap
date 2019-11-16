@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders without crashing a pack of one component 1`] = `
+<div>
+  Test
+</div>
+`;
+
+exports[`it renders without crashing a pack of three components 1`] = `
+<div>
+  <div>
+    <div>
+      Test
+    </div>
+  </div>
+</div>
+`;
