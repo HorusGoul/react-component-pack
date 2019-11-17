@@ -3,6 +3,21 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "Horus Lugo <horusgoul@gmail.com>",
+  "keywords": [
+    "react",
+    "pack",
+    "context hell",
+    "component pack",
+    "tree"
+  ],
+  "homepage": "https://github.com/HorusGoul/react-component-pack#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HorusGoul/react-component-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HorusGoul/react-component-pack/issues"
+  },
   "main": "dist/index.js",
   "module": "dist/react-component-pack.esm.js",
   "typings": "dist/index.d.ts",
@@ -14,7 +29,7 @@
     "build": "tsdx build",
     "test": "tsdx test --env=jsdom",
     "lint": "tsdx lint",
-    "release": "npm run test && npm run build && npm run publish"
+    "release": "npm run test && npm run build && npm publish"
   },
   "peerDependencies": {
     "react": ">=16"

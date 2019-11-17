@@ -4,6 +4,8 @@
 npm install react-component-pack
 ```
 
+## Usage
+
 With `react-component-pack` you can go from this:
 
 ```jsx
@@ -16,7 +18,7 @@ function App() {
             <ThisIsGettingReallyBigProvider>
               <OhMyGodTheresMoreProvider>
                 <FinallySomeRealComponents />
-              </OhMyGodThresMoreProvider>
+              </OhMyGodTheresMoreProvider>
             </ThisIsGettingReallyBigProvider>
           </WtfProvider>
         </AnotherDataProvider>
@@ -45,6 +47,6 @@ function App() {
     <ProviderPack>
       <FinallySomeRealComponents />
     </ProviderPack>
-  )
+  );
 }
 ```

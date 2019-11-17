@@ -4,9 +4,14 @@ export interface WithChildrenProps {
   children: React.ReactNode;
 }
 
-export type PackComponentType<T extends WithChildrenProps = WithChildrenProps> = React.ElementType<T>;
+export type PackComponentType<
+  T extends WithChildrenProps = WithChildrenProps
+> = React.ElementType<T>;
 
-export function pack(children: React.ReactNode = null, ...components: PackComponentType[]) {
+export function pack(
+  children: React.ReactNode = null,
+  ...components: PackComponentType[]
+) {
   if (!components.length) {
     return children as JSX.Element;
   }
@@ -21,4 +26,3 @@ export function createPack(...components: PackComponentType[]) {
     return pack(children, ...components);
   };
 }
-
