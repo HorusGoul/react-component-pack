@@ -1,14 +1,16 @@
 {
   "name": "react-component-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Horus Lugo <horusgoul@gmail.com>",
+  "description": "Say goodbye to provider hell with react-component-pack, a utility that allows you to group multiple components into a single one",
   "keywords": [
     "react",
     "pack",
     "context hell",
     "component pack",
-    "tree"
+    "tree",
+    "provider hell"
   ],
   "homepage": "https://github.com/HorusGoul/react-component-pack#readme",
   "repository": {
